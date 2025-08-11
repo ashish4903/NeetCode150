@@ -1,0 +1,33 @@
+# Build
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# NuGet
+packages/
+*.nupkg
+.nuget/
+
+# Publish outputs
+publish/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs, DBs
+*.log
+*.mdb
+*.db
+
+# sensitive or environment-specific
+appsettings.*.json
