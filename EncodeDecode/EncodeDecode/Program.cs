@@ -1,7 +1,15 @@
-﻿namespace EncodeDecode
+﻿using Microsoft.VisualBasic;
+
+namespace EncodeDecode
 {
     public class Program
     {
+        /// <summary>
+        /// Time Complexity: O(m) for each encode() & decode() function calls
+        /// Space Complexity: O(m+n) for each encode() & decode() function calls
+        /// Where m is the sum of lengths of all the strings and n is the number of strings.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
 
